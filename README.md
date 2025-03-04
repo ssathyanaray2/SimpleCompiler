@@ -58,4 +58,16 @@ A recursive descent parser is a top-down parser that works by:
 	5) Error Handling:
 		• "The compiler provides detailed error messages to help the user debug their code, such as syntax errors, type mismatches, or undeclared variables."
 		• Demo Point: Show a program that triggers an error and the corresponding message.
+
+
+  # Command to compile and run code:
 	
+	Compile the Program:
+	gcc -o compiler compiler.c
+	
+	Run the Compiler:
+	./compiler input.txt output.txt
+	
+	input.txt: The script file to be compiled and executed.
+	output.txt: The file where the output will be written.
+		
