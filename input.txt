@@ -1,0 +1,21 @@
+x = 2;
+y = 5;
+z = (x + y)*(14/7);
+print(x);
+print(y);
+print(z);
+
+if (x < y) {
+    a = 5;
+    print(a);
+}
+
+while (z > 0) {
+    z = z - 1;
+    print(z);
+}
+
+
+for (i = 0; i < 5; i = i + 1) {
+    print(i);
+}
